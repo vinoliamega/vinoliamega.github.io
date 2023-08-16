@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Sekolah - SMKN 1 Prigen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #336699;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #ffffff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .galeri-section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 40px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        .gallery img,
+        .gallery video {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #336699;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute, fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Foto/Logo Banner.png" alt="Logo" width="350" height="50">
+    </header>
+    <header>
+        <h1>Galeri Sekolah - Sekolah SMKN 1 Prigen</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Beranda.html">Beranda</a></li>
+            <li><a href="Tentang Kami.html">Tentang Kami</a></li>
+            <li><a href="Program Studi.html">Program Studi</a></li>
+            <li><a href="Galeri.html">Galeri</a></li>
+            <li><a href="Web Developer.html">Web Developer</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="galeri-section">
+            <h2>Galeri Foto dan Video Sekolah</h2>
+            <div class="gallery">
+                <img src="Foto/Foto Sekolah.png" alt="Foto Sekolah">
+                <video controls>
+                    <source src="Video/Upacara (1).mp4" type="video/mp4">
+                </video>
+                <img src="Foto/Giat DKV 3.JPG" alt="Kegiatan Belajar">
+                <video controls>
+                    <source src="Video/Upacara (2).mp4" type="video/mp4">
+                </video>
+                <img src="Foto/Giat TBSM 1 (1).JPG" alt="Fasilitas Sekolah">
+                <img src="Foto/PH.JPG" alt="Kegiatan Olahraga">
+                <img src="Foto/Giat TKJ1 (2).JPG" alt="Fasilitas Sekolah">
+                <img src="Foto/KN.JPG" alt="Kegiatan Olahraga">
+                <video controls>
+                    <source src="Video/Upacara (3).mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Hak Cipta © 2023 SMKN 1 Prigen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
